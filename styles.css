@@ -60,7 +60,8 @@ body {
     white-space: nowrap;
 }
 
-.navbar-container .navbar-menu li a:hover {
+.navbar-container .navbar-menu li a:hover, 
+.navbar-container .navbar-menu li a.active {
     color: #162530;
     background: rgba(188, 212, 229, 0.8);
     border: 2px solid #fff;
@@ -92,6 +93,7 @@ body {
 
     .navbar-container .navbar-menu 
     {
+        display: none;
         flex-direction: column;
         align-items: flex-start;
         gap: 1.7rem !important;
@@ -103,5 +105,47 @@ body {
         padding: 5rem 1.5rem;
         box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
         backdrop-filter: blur(10px);
+    }
+
+    .navbar-container .navbar-menu.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+        z-index: 1000;
+    }
+
+    .navbar-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }   
+
+    .navbar-toggle.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }   
+
+    .navbar-toggle.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }   
+}
+
+@media (max-width: 480px) 
+{
+    .navbar-container {
+        padding: 0 1rem;
+    }
+
+    .navbar-logo {
+        font-size: 1.5rem;
+    }
+
+    .navbar-container .navbar-menu {
+        width: 200px;
+        padding: 5rem 1rem;
+    }
+
+    .navbar-container .navbar-menu li a {
+        font-size: 1.1rem;
+        padding: 3px 15px;
     }
 }
