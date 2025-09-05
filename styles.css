@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+   font-family: "Jost", sans-serif;
+   min-height: 100vh;
+   background: url('./images/pexels-magda-ehlers-pexels-28942196.jpg') no-repeat center center/cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: transparent;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    backdrop-filter: blur(10px);
+    z-index: 900;
+}
