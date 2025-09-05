@@ -8,6 +8,7 @@ body {
    font-family: "Jost", sans-serif;
    min-height: 100vh;
    background: url('./images/pexels-magda-ehlers-pexels-28942196.jpg') no-repeat center center/cover;
+   overflow-x: hidden;
 }
 
 .navbar {
@@ -187,4 +188,41 @@ body {
     width: 100%;
     height: auto;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 4rem 0 2rem 0;
+    color: #1403ff;
+}
+
+.services h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1403ff;
+}
+
+/*.services-wr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 2rem 4rem 2rem;
+    flex-wrap: wrap;
+}*/
+
+.services p {
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
+    padding-right: 5%;
 }
