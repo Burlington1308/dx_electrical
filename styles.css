@@ -80,7 +80,7 @@ body {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background-color: #fff;
+    background-color: #1403ff;
     transition: all 0.3s ease-in-out;
 }
 
@@ -89,6 +89,10 @@ body {
 {
     .navbar {
         backdrop-filter: none;
+    }
+
+    .navbar-logo{
+         color: #1403ff;
     }
 
     .navbar-container .navbar-menu 
@@ -148,4 +152,39 @@ body {
         font-size: 1.1rem;
         padding: 3px 15px;
     }
+}
+
+/*Main body: first banner section*/
+.banner {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 0 2rem;
+}
+
+.banner-msg {
+    width:auto;
+    height: 40%;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 5rem 2rem;
+    backdrop-filter: blur(10px);
+}
+
+.banner-header {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+/*main body: services section*/
+
+.services {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
 }
