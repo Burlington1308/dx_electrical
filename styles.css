@@ -82,3 +82,26 @@ body {
     background-color: #fff;
     transition: all 0.3s ease-in-out;
 }
+
+/* Responsive Styles */
+@media (max-width: 880px) 
+{
+    .navbar {
+        backdrop-filter: none;
+    }
+
+    .navbar-container .navbar-menu 
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.7rem !important;
+        position: absolute;
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        right: 0;
+        padding: 5rem 1.5rem;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, .5);
+        backdrop-filter: blur(10px);
+    }
+}
