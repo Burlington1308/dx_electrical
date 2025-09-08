@@ -17,11 +17,12 @@ body {
     justify-content: center;
     height: 80px;
     width: 100%;
-    position: sticky;
+    position: absolute;
     top: 0;
     background: transparent;
     box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
     backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, .5);
     z-index: 900;
 }
 
@@ -81,7 +82,7 @@ body {
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    background-color: #1403ff;
+    background-color: #fff;
     transition: all 0.3s ease-in-out;
 }
 
@@ -89,11 +90,11 @@ body {
 @media (max-width: 880px) 
 {
     .navbar {
-        backdrop-filter: none;
+        backdrop-filter: blur(10px);
     }
 
     .navbar-logo{
-         color: #1403ff;
+         color: #fff;
     }
 
     .navbar-container .navbar-menu 
