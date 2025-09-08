@@ -115,6 +115,8 @@ body {
 
     .navbar-container .navbar-menu.active {
         display: flex;
+        background: rgba(0, 0, 0, .75);
+        backdrop-filter: blur(10px);
     }
 
     .navbar-toggle {
