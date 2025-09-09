@@ -7,7 +7,6 @@
 body {
    font-family: "Jost", sans-serif;
    min-height: 100vh;
-   background: url('./images/pexels-magda-ehlers-pexels-28942196.jpg') no-repeat center center/cover;
    overflow-x: hidden;
 }
 
@@ -168,6 +167,7 @@ body {
     text-align: center;
     color: #fff;
     padding: 0 2rem;
+    background: url('./images/pexels-magda-ehlers-pexels-28942196.jpg') no-repeat center center/cover;
 }
 
 .banner-msg {
@@ -184,6 +184,7 @@ body {
     font-weight: 600;
     margin-bottom: 1rem;
 }
+
 
 /*main body: services section*/
 
@@ -273,4 +274,23 @@ body {
 .services .more a {
     text-decoration: none;
     color: inherit;
+}
+
+.faq {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 4rem;
+}
+
+.faq-header {
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: left;
+    margin: 4rem 0 2rem 0;
+    color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
 }
