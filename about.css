@@ -1,0 +1,11 @@
+.about-banner {
+    background-color: #1e1e1f;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 1rem;
+}
