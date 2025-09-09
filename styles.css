@@ -203,7 +203,7 @@ body {
     flex-direction: column;
 }
 
-.services-header, .electrical_header, .solar_header, .fault-header {
+.services-header, .electrical_header, .solar_header, .fault-header, .maintain-header {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: left;
