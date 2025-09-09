@@ -175,14 +175,21 @@ body {
     height: 40%;
     background: rgba(0, 0, 0, .5);
     border-radius: 10px;
-    padding: 5rem 2rem;
+    padding: 3rem 2rem;
     backdrop-filter: blur(10px);
 }
 
 .banner-header {
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 3rem);
     font-weight: 600;
     margin-bottom: 1rem;
+}
+
+.banner-subhead {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    font-weight: 400;
+    margin-bottom: 2rem;
+    line-height: 1.5;
 }
 
 
