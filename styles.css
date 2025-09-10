@@ -220,8 +220,6 @@ body {
     text-align: left;
     margin-bottom: 1rem;
     color: #545455;
-    /*padding-left: 5%;
-    padding-right: 5%;*/
 }
 
 /*.services-wr {
@@ -246,19 +244,6 @@ body {
     text-wrap: balance;
     text-align: left;
 }
-
-/*.services p {
-    font-size: 1rem;
-    text-align: center;
-    color: #333;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: ;
-    text-wrap: balance;
-    text-align: left;
-}*/
 
 .services .more {
     display: block;
@@ -291,6 +276,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-bottom: 4rem;
+    color: #fff;
 }
 
 .faq-header {
@@ -301,4 +287,22 @@ body {
     color: #fff;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.faq-subhead {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+}
+
+.faq-h3 {
+    color: #fff;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.faq-p {
+    color: #fff;
+    padding-bottom: 2%;
 }
