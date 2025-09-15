@@ -46,6 +46,14 @@ body {
     cursor: pointer;
 }
 
+.navbar-logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+    background: #fff;
+}
+
 .navbar-container .navbar-menu {
     display: flex;
     align-items: center;
