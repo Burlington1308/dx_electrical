@@ -1,5 +1,5 @@
 .about-banner {
-    background-color: #1e1e1f;;
+    background: url('images/about_banner.jpg') no-repeat center center/cover;
     height: 80vh;
     display: flex;
     flex-direction: column;
