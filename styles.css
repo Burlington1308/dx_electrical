@@ -370,7 +370,7 @@ body {
     height: 50px;
     position: fixed;
     bottom: 20vh;
-    box-shadow:5px 5px 5px 5px rgba(93, 96, 252, 0.6);
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0, 0.8);
     z-index: 900;
     margin-left:80%;
     border-radius: 5px;
@@ -380,7 +380,7 @@ body {
 .email:hover {
     width: 65px;
     height: 65px;
-    box-shadow: 5px 5px 5px 5px rgb(93, 96, 252, 0.8);
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.8);
     transition: .4s ease-in-out;
 }
 
